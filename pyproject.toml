@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "life-engine"
+version = "0.1.0"
+description = ""
+authors = ["Uday <iamuday1618@gmail.com>"]
+readme = "README.md"
+packages = [{include = "life_engine"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
